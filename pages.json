@@ -1,0 +1,54 @@
+{
+    "pages": [{
+            "path": "pages/add/add",
+            "style": {
+                "navigationBarTitleText": "添加图书"
+            }
+        },
+        {
+            "path": "pages/list/list",
+            "style": {
+                "navigationBarTitleText": "图书列表"
+            }
+        },
+        {
+            "path": "pages/person/person",
+            "style": {
+                "navigationBarTitleText": "个人中心"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarBackgroundColor": "#0081ff",
+        "navigationBarTitleText": "TAS",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+
+    },
+    "tabBar": {
+        "borderStyle": "white",
+        "backgroundColor": "#FFFFFF",
+        "color": "#bfbfbf",
+        "selectedColor": "#70c043",
+        "list": [{
+                "pagePath": "pages/add/add",
+                "iconPath": "static/tabbar/add.png",
+                "selectedIconPath": "static/tabbar/add-selected.png",
+                "text": "添加"
+            },
+            {
+                "pagePath": "pages/list/list",
+                "iconPath": "static/tabbar/list.png",
+                "selectedIconPath": "static/tabbar/list-selected.png",
+                "text": "列表"
+            }
+            // {
+            //     "pagePath": "pages/person/person",
+            //     "iconPath": "static/tabbar/Person.png",
+            //     "selectedIconPath": "static/tabbar/Person-selected.png",
+            //     "text": "个人"
+            // }
+        ]
+    },
+    "usingComponts": true
+}

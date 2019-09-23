@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/add/add",
+    "pages/list/list",
+    "pages/person/person"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "TAS",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "color": "#bfbfbf",
+    "selectedColor": "#70c043",
+    "list": [
+      {
+        "pagePath": "pages/add/add",
+        "iconPath": "static/tabbar/add.png",
+        "selectedIconPath": "static/tabbar/add-selected.png",
+        "text": "添加"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/tabbar/list.png",
+        "selectedIconPath": "static/tabbar/list-selected.png",
+        "text": "列表"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}
